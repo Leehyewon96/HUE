@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Spikes
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":898.0542,"y":-62.52887},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"0b524966-a3ec-44f7-bfa1-86f89dbdb654","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"6de4b405-8cac-4caa-9457-45db3d419d14","$version":"A","$type":"Bolt.Update"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Death","$type":"System.String"},"target":null},"position":{"x":959.0,"y":-175.0},"guid":"3edd80ff-8ad9-40b5-810a-8ffad75d23f9","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":507.0,"y":-157.0},"guid":"fb122acf-c456-41eb-ad1b-c07f25c1faba","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Target","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"5e79c825-a976-4cc3-b677-d6283d067715","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Object","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"eaafd98a-9e8e-45d8-8e52-84ef04e453fd","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b7f57b973b521914c8b89d602f4ac64d, type: 2}
